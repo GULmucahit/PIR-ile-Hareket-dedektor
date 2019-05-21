@@ -29,4 +29,5 @@ if(butonDurum==HIGH){
 analogWrite(motorPin, 0); 
 digitalWrite(buzzerPin, LOW);
 }
+
 }
