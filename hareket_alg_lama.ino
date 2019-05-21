@@ -24,10 +24,6 @@ digitalWrite(buzzerPin, HIGH);
 delay(2000);
 digitalWrite(buzzerPin, LOW); 
 delay(1000);
-digitalWrite(buzzerPin,HIGH);
-delay(2000); 
-digitalWrite(buzzerPin,LOW);
-delay(1000);
 }
 if(butonDurum==HIGH){
 analogWrite(motorPin, 0); 
